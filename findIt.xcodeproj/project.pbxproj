@@ -13,6 +13,7 @@
 		677CEE1A26A62B72005D767F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677CEE1826A62B72005D767F /* Main.storyboard */; };
 		677CEE1C26A62B76005D767F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677CEE1B26A62B76005D767F /* Assets.xcassets */; };
 		677CEE1F26A62B76005D767F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677CEE1D26A62B76005D767F /* LaunchScreen.storyboard */; };
+		67DB83FA26A7428100262D3B /* RestaurantFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DB83F926A7428100262D3B /* RestaurantFinder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		677CEE1B26A62B76005D767F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		677CEE1E26A62B76005D767F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		677CEE2026A62B76005D767F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67DB83F926A7428100262D3B /* RestaurantFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantFinder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				677CEE1226A62B72005D767F /* AppDelegate.swift */,
+				67DB83F926A7428100262D3B /* RestaurantFinder.swift */,
 				677CEE1426A62B72005D767F /* SceneDelegate.swift */,
 				677CEE1626A62B72005D767F /* ViewController.swift */,
 				677CEE1826A62B72005D767F /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				677CEE1726A62B72005D767F /* ViewController.swift in Sources */,
+				67DB83FA26A7428100262D3B /* RestaurantFinder.swift in Sources */,
 				677CEE1326A62B72005D767F /* AppDelegate.swift in Sources */,
 				677CEE1526A62B72005D767F /* SceneDelegate.swift in Sources */,
 			);
