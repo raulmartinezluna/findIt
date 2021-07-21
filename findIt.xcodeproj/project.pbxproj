@@ -14,7 +14,6 @@
 		677CEE1C26A62B76005D767F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677CEE1B26A62B76005D767F /* Assets.xcassets */; };
 		677CEE1F26A62B76005D767F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677CEE1D26A62B76005D767F /* LaunchScreen.storyboard */; };
 		67DB83FA26A7428100262D3B /* RestaurantFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DB83F926A7428100262D3B /* RestaurantFinder.swift */; };
-		B65A369026A8BAB400F05A8E /* coc mg.png in Resources */ = {isa = PBXBuildFile; fileRef = B65A368F26A8BAB400F05A8E /* coc mg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		677CEE1E26A62B76005D767F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		677CEE2026A62B76005D767F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67DB83F926A7428100262D3B /* RestaurantFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantFinder.swift; sourceTree = "<group>"; };
-		B65A368F26A8BAB400F05A8E /* coc mg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "coc mg.png"; path = "../../../Desktop/coc mg.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				677CEE1226A62B72005D767F /* AppDelegate.swift */,
-				B65A368F26A8BAB400F05A8E /* coc mg.png */,
 				67DB83F926A7428100262D3B /* RestaurantFinder.swift */,
 				677CEE1426A62B72005D767F /* SceneDelegate.swift */,
 				677CEE1626A62B72005D767F /* ViewController.swift */,
@@ -132,7 +129,6 @@
 			files = (
 				677CEE1F26A62B76005D767F /* LaunchScreen.storyboard in Resources */,
 				677CEE1C26A62B76005D767F /* Assets.xcassets in Resources */,
-				B65A369026A8BAB400F05A8E /* coc mg.png in Resources */,
 				677CEE1A26A62B72005D767F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
