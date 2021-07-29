@@ -134,7 +134,7 @@
                                     <action selector="priceButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8KY-tw-m39"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P7G-Aa-aK3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="P7G-Aa-aK3">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -466,6 +466,7 @@
     </scenes>
     <resources>
         <image name="YelpLogo" width="333.33334350585938" height="212.33332824707031"/>
+        <image name="food" width="1450" height="966.66668701171875"/>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
