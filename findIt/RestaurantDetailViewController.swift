@@ -8,6 +8,7 @@
 import UIKit
 
 class RestaurantDetailViewController: UIViewController {
+    var restaurantID:String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
