@@ -25,7 +25,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="UPy-SW-16P" kind="show" id="r4n-aE-IRc"/>
+                                    <action selector="findPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CM8-2c-Hky"/>
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="20" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="uqS-Rf-zyq">
@@ -312,11 +312,12 @@
                         <outletCollection property="priceButtons" destination="Mvg-hr-GwI" collectionClass="NSMutableArray" id="S28-wA-AHE"/>
                         <outletCollection property="priceButtons" destination="4Mg-2j-PBA" collectionClass="NSMutableArray" id="g5e-We-qHu"/>
                         <outletCollection property="priceButtons" destination="AwW-7k-fRB" collectionClass="NSMutableArray" id="23H-4h-uJy"/>
+                        <segue destination="UPy-SW-16P" kind="presentation" identifier="restaurantDetail" id="fw8-dW-LX3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-623.20000000000005" y="223.53823088455775"/>
+            <point key="canvasLocation" x="-564" y="239"/>
         </scene>
         <!--Find It-->
         <scene sceneID="doL-Pi-E0w">
@@ -456,6 +457,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="PDr-NF-hNX"/>
                     <connections>
+                        <outlet property="nameLabel" destination="oma-8V-gwL" id="u9a-HV-f7z"/>
+                        <outlet property="restaurantImageView" destination="jVK-4B-KMt" id="gy5-33-XyL"/>
                         <outlet property="yelpButton" destination="WIv-Hg-eto" id="tXf-79-6N1"/>
                     </connections>
                 </viewController>

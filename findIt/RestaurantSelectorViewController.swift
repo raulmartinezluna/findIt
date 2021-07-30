@@ -39,6 +39,59 @@ class RestaurantSelectorViewController: UIViewController {
         sender.isSelected = !sender.isSelected
     }
     
+    //App Details
+    let ClientID: String = "C0xxAUOOVtQtFGLzE_1xkQ"
+    
+    //Search - Not Completed -
+    let yelpAPIClient = CDYelpAPIClient(apiKey: "H4c-V9MkkqMjxAHQWHHNljdKC8O6v3eUNfkeyXj7c3i7_TLHDJY3gbC9nVuokcXcjnFS9nL8ClSV6eZa885ckdCwEuFWX0uTEkRm3JboUDo_lpceLUYo7F472MH1YHYx")
+    @IBAction func findPressed(_ sender: Any) {
+        var priceTiers: [CDYelpPriceTier] = []
+        if priceButtons[0].isSelected {
+            priceTiers.append(.oneDollarSign)
+        }
+        if priceButtons[1].isSelected {
+            priceTiers.append(.twoDollarSigns)
+        }
+        if priceButtons[2].isSelected {
+            priceTiers.append(.threeDollarSigns)
+        }
+        if priceButtons[3].isSelected {
+            priceTiers.append(.fourDollarSigns)
+        }
+        let x = Int(round(slider.value))
+        let yelpDistance = x * 1609
+        yelpAPIClient.searchBusinesses(byTerm: nil,
+                                       location: "San Francisco",
+                                       latitude: nil,
+                                       longitude: nil,
+                                       radius: yelpDistance,
+                                       categories: nil,
+                                       locale: .english_unitedStates,
+                                       limit: 50,
+                                       offset: 0,
+                                       sortBy: .rating,
+                                       priceTiers: priceTiers,
+                                       openNow: true,
+                                       openAt: nil,
+                                       attributes: nil) { (response) in
+          if let response = response,
+              let businesses = response.businesses,
+              businesses.count > 0 {
+            let business = businesses.randomElement()!
+            print(business.name)
+            self.performSegue(withIdentifier: "restaurantDetail", sender: business)
+          }
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "restaurantDetail" {
+            let dest = segue.destination as! RestaurantDetailViewController
+            dest.business = sender as? CDYelpBusiness
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let x = Int(round(slider.value))

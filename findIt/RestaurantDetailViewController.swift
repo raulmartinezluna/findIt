@@ -6,19 +6,26 @@
 //
 
 import UIKit
+import CDYelpFusionKit
 
 class RestaurantDetailViewController: UIViewController {
     var restaurantID:String = ""
+    var business: CDYelpBusiness?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         yelpButton.imageView?.image = UIImage.yelpLogo()
-        
+        nameLabel.text = business?.name ?? ""
+        restaurantImageView.image = UIImage.yelpStars(numberOfStars: .twoHalf, forSize: .large)
+        restaurantImageView.contentMode = .scaleAspectFit
         // Do any additional setup after loading the view.
+        print(business?.name, "detail")
+        print(business?.rating)
     }
-    
+
     @IBOutlet weak var yelpButton: UIButton!
-    
+    @IBOutlet weak var restaurantImageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var starImage: UIImageView!
     /*
     // MARK: - Navigation
