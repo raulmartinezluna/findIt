@@ -177,7 +177,7 @@
 		27087A9CA93EEEF6D347C23D13D6C3BC /* CodableTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableTransform.swift; path = Sources/CodableTransform.swift; sourceTree = "<group>"; };
 		27596F0D775F5233BE404B6988F25AEE /* CDYelpConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CDYelpConstants.swift; path = Source/CDYelpConstants.swift; sourceTree = "<group>"; };
 		27656024F73E75C4503B91E040995F91 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		2959BCFE86CABCC70DF1D98431CE9A5D /* Pods_findIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_findIt.framework; path = "Pods-findIt.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2959BCFE86CABCC70DF1D98431CE9A5D /* Pods_findIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_findIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		314617E1CDCC9EF09C482D0672054FE3 /* Pods-findIt-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-findIt-frameworks.sh"; sourceTree = "<group>"; };
 		319F95BAA28BCA9F742489AE147A5ED9 /* CDYelpCoordinates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CDYelpCoordinates.swift; path = Source/CDYelpCoordinates.swift; sourceTree = "<group>"; };
 		33B2AB74F4A9DB785660B2F6669DC37C /* Pods-findIt-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-findIt-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -207,7 +207,7 @@
 		55951209F08E88128B832E0262048D1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5AD89C57D59814D6BE2B43090B47AFFE /* CDYelpFusionKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CDYelpFusionKit-Info.plist"; sourceTree = "<group>"; };
 		5D4D294AAE3101DC174920AD0CE2B08D /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF3DEF7715934AD85C5CF5A693E2C42 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		5E5C0BFF189997076B78B2DB6DD34F63 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		65223040DD7130F69CFEBCDEDDEAC942 /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = Sources/URLTransform.swift; sourceTree = "<group>"; };
@@ -229,7 +229,7 @@
 		7F8F584741D8A1038F0EB7D90DCDCF71 /* HexColorTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColorTransform.swift; path = Sources/HexColorTransform.swift; sourceTree = "<group>"; };
 		808006586F9228346A299DD1F27067E9 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
 		80A8CA3A778369C0C1F60DE370B3AF3B /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberTransform.swift; path = Sources/NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
-		82269EED4D8AA1B32CF1A51A08C189D2 /* CDYelpFusionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDYelpFusionKit.framework; path = CDYelpFusionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82269EED4D8AA1B32CF1A51A08C189D2 /* CDYelpFusionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDYelpFusionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E3951C3CBAAA51EB0697DF2F7F45F7 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
 		8AD412755B5462A5EA5346BEAC5FD414 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		8B3B937A7D17A1BF3E8EE0A756D8FCA7 /* TransformOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOf.swift; path = Sources/TransformOf.swift; sourceTree = "<group>"; };
@@ -245,7 +245,7 @@
 		976A9D7EF0CA64D83B793172ED7D94F0 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
 		9B58C8E2C589A15504AF748CA934E7B3 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		9CB9A401D567893E9BB1910E7888FEEA /* CDYelpCategoryResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CDYelpCategoryResponse.swift; path = Source/CDYelpCategoryResponse.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E30F25877AE8E18251E6428846CE189 /* DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTransform.swift; path = Sources/DateTransform.swift; sourceTree = "<group>"; };
 		A4B303AA7ABB8F0999C5E6DCCA83787C /* CDYelpFusionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDYelpFusionKit-prefix.pch"; sourceTree = "<group>"; };
 		A4CCF1EF8AD2CBE2154F46E3A0B3808D /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
@@ -258,7 +258,7 @@
 		B556BE36867D92D3C1EC46483AD21CEF /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
 		B57DF806E0D1A2553E8ABE998336658C /* CDYelpUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CDYelpUser.swift; path = Source/CDYelpUser.swift; sourceTree = "<group>"; };
 		B589080F2CD1275B43D45ED8551D5249 /* Pods-findIt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-findIt-Info.plist"; sourceTree = "<group>"; };
-		B9084FE779702931E8DF1D00A2D725FB /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ObjectMapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9084FE779702931E8DF1D00A2D725FB /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEEA776068C92508C8DBD4B4C448E04 /* Mapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = Sources/Mapper.swift; sourceTree = "<group>"; };
 		BC526E7581CBE2A637AA16E594AADCD6 /* TransformOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOperators.swift; path = Sources/TransformOperators.swift; sourceTree = "<group>"; };
 		C11E04AAE86C5755954472D62471D01F /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = Sources/EnumTransform.swift; sourceTree = "<group>"; };
@@ -398,7 +398,6 @@
 				65223040DD7130F69CFEBCDEDDEAC942 /* URLTransform.swift */,
 				32E093CDF34D6B5E0C6A125FDC99291D /* Support Files */,
 			);
-			name = ObjectMapper;
 			path = ObjectMapper;
 			sourceTree = "<group>";
 		};
@@ -442,7 +441,6 @@
 				1CED1961B70FFCC58A907B15D2F7B620 /* Validation.swift */,
 				8152C07896FD319A80CC96B5A49C6140 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -507,7 +505,6 @@
 				7D98ADB55C5FA48C615DAAFAC330318F /* Resources */,
 				E56D0BFF5C548E2264F01A2824F6DE0B /* Support Files */,
 			);
-			name = CDYelpFusionKit;
 			path = CDYelpFusionKit;
 			sourceTree = "<group>";
 		};

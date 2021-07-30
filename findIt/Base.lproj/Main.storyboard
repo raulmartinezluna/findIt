@@ -231,7 +231,7 @@
                                 <color key="backgroundColor" red="0.2102698838" green="0.2102698838" blue="0.2102698838" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="More">
+                                <state key="normal" title="All">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -420,6 +420,9 @@
                                 <state key="normal" title="Call">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="callPressed:" destination="UPy-SW-16P" eventType="touchUpInside" id="LTG-yh-fOa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTy-sL-dqX">
                                 <rect key="frame" x="247" y="304" width="112" height="43"/>
@@ -429,6 +432,9 @@
                                 <state key="normal" title="Website">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="webPressed:" destination="UPy-SW-16P" eventType="touchUpInside" id="1qg-kI-ZI1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIv-Hg-eto">
                                 <rect key="frame" x="248" y="230" width="111" height="71"/>
@@ -442,12 +448,11 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oAe-Af-zjr">
-                                <rect key="frame" x="16" y="254" width="112" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oAe-Af-zjr">
+                                <rect key="frame" x="16" y="259" width="162" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2102698838" green="0.2102698838" blue="0.2102698838" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Reviews">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="yelp_stars_zero_extra_large">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
@@ -460,6 +465,7 @@
                         <outlet property="mapView" destination="b8h-nW-hva" id="D5H-hq-Vfe"/>
                         <outlet property="nameLabel" destination="oma-8V-gwL" id="u9a-HV-f7z"/>
                         <outlet property="restaurantImageView" destination="jVK-4B-KMt" id="gy5-33-XyL"/>
+                        <outlet property="reviewButton" destination="oAe-Af-zjr" id="P02-W5-Nnu"/>
                         <outlet property="yelpButton" destination="WIv-Hg-eto" id="tXf-79-6N1"/>
                     </connections>
                 </viewController>
@@ -471,6 +477,7 @@
     <resources>
         <image name="Food" width="4350" height="2900"/>
         <image name="YelpLogo" width="333.33334350585938" height="212.33332824707031"/>
+        <image name="yelp_stars_zero_extra_large" width="162" height="30"/>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
