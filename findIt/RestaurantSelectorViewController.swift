@@ -7,8 +7,11 @@
 
 import UIKit
 import CDYelpFusionKit
+import CoreLocation
 
-class RestaurantSelectorViewController: UIViewController {
+class RestaurantSelectorViewController: UIViewController, CLLocationManagerDelegate {
+    let locationManager = CLLocationManager()
+    var coordinate: CLLocationCoordinate2D?
 
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var lblSliderValue: UILabel!
@@ -59,11 +62,15 @@ class RestaurantSelectorViewController: UIViewController {
             priceTiers.append(.fourDollarSigns)
         }
         let x = Int(round(slider.value))
-        let yelpDistance = x * 1609
+        var yelpDistance = x * 1609
+        if yelpDistance > 40000{
+            yelpDistance = 40000
+        }
+        print(coordinate)
         yelpAPIClient.searchBusinesses(byTerm: nil,
-                                       location: "San Francisco",
-                                       latitude: nil,
-                                       longitude: nil,
+                                       location: nil,
+                                       latitude: coordinate?.latitude ?? 0,
+                                       longitude: coordinate?.longitude ?? 0,
                                        radius: yelpDistance,
                                        categories: nil,
                                        locale: .english_unitedStates,
@@ -100,7 +107,23 @@ class RestaurantSelectorViewController: UIViewController {
        
         // Do any additional setup after loading the view.
         //print(RestaurantFinder.shared.getRestaurant(category: .restaurants, radius: 40000, price: .oneDollarSign, didFinish:))
+        // Ask for Authorisation from the User.
+        self.locationManager.requestAlwaysAuthorization()
+
+        // For use in foreground
+        self.locationManager.requestWhenInUseAuthorization()
+
+        if CLLocationManager.locationServicesEnabled() {
+            locationManager.delegate = self
+            locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
+            locationManager.startUpdatingLocation()
+        }
         
+    }
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        guard let locValue: CLLocationCoordinate2D = manager.location?.coordinate else { return }
+        print("locations = \(locValue.latitude) \(locValue.longitude)")
+        coordinate = locValue
     }
     func setUISliderThumbValueWithLabel(slider: UISlider) -> CGPoint {
         let slidertTrack : CGRect = slider.trackRect(forBounds: slider.bounds)
