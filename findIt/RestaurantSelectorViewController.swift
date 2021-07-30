@@ -100,6 +100,7 @@ class RestaurantSelectorViewController: UIViewController {
        
         // Do any additional setup after loading the view.
         //print(RestaurantFinder.shared.getRestaurant(category: .restaurants, radius: 40000, price: .oneDollarSign, didFinish:))
+        
     }
     func setUISliderThumbValueWithLabel(slider: UISlider) -> CGPoint {
         let slidertTrack : CGRect = slider.trackRect(forBounds: slider.bounds)

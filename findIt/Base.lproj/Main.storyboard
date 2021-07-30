@@ -457,6 +457,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="PDr-NF-hNX"/>
                     <connections>
+                        <outlet property="mapView" destination="b8h-nW-hva" id="D5H-hq-Vfe"/>
                         <outlet property="nameLabel" destination="oma-8V-gwL" id="u9a-HV-f7z"/>
                         <outlet property="restaurantImageView" destination="jVK-4B-KMt" id="gy5-33-XyL"/>
                         <outlet property="yelpButton" destination="WIv-Hg-eto" id="tXf-79-6N1"/>
