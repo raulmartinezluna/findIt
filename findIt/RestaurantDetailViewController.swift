@@ -27,9 +27,9 @@ class RestaurantDetailViewController: UIViewController {
         case 0...0.5:
             numberOfStars = CDYelpStars.zero
         case 0.5...1:
-            numberOfStars = CDYelpStars.oneHalf
-        case 1...1.5:
             numberOfStars = CDYelpStars.one
+        case 1...1.5:
+            numberOfStars = CDYelpStars.oneHalf
         case 1.5...2:
             numberOfStars = CDYelpStars.two
         case 2...2.5:
