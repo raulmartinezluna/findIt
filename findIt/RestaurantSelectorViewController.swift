@@ -62,7 +62,8 @@ class RestaurantSelectorViewController: UIViewController, CLLocationManagerDeleg
             priceTiers.append(.fourDollarSigns)
         }
         let x = Int(round(slider.value))
-        var yelpDistance = x * 1609
+        var yelpDistance = x * 1609 / 2
+    
         if yelpDistance > 40000{
             yelpDistance = 40000
         }
@@ -102,7 +103,7 @@ class RestaurantSelectorViewController: UIViewController, CLLocationManagerDeleg
     override func viewDidLoad() {
         super.viewDidLoad()
         let x = Int(round(slider.value))
-        lblSliderValue.text = "\(x)"
+        lblSliderValue.text = ""
         lblSliderValue.center = setUISliderThumbValueWithLabel(slider:slider)
        
         // Do any additional setup after loading the view.
